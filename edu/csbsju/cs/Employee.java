@@ -24,6 +24,11 @@ public class Employee
    {
       return salary;
    }
+   
+   public String toString()
+   {
+      return "Name: " + name " Salary: " + salary + " Hire Day: " + hireDay;
+   }
 
    public Date getHireDay()
    {
